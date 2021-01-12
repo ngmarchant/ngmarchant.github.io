@@ -2,6 +2,10 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+html {
+  scroll-padding-top: 57px; /* height of sticky header */
+}
+
 // Typography
 
 p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
@@ -29,7 +33,7 @@ a, table.table a {
 // Caption
 
 .caption {
-  font-size: 0.875rem;
+  font-size: 1rem;
   margin-top: 0.75rem;
   margin-bottom: 1.5rem;
   text-align: center;
@@ -65,7 +69,7 @@ a, table.table a {
 
 .post-description {
   margin-bottom: 2rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
   a {
     color: inherit;
     &:hover {
@@ -109,13 +113,17 @@ a, table.table a {
       }
   }
   .contact-icon {
-    font-size: 2rem;
+    font-size: 1.5rem;
     a {
       &:hover {
         color: var(--global-hover-color);
       }
     }
   }
+}
+
+.navbar-collapse {
+  flex-grow: 0.0;
 }
 
 .navbar-toggler {
@@ -156,6 +164,10 @@ a, table.table a {
 
 // News
 
+.news {
+  margin-top: 2rem;
+}
+
 .news table td {
   font-size: 1rem;
   color: var(--global-text-color);
@@ -163,6 +175,7 @@ a, table.table a {
 
 .news table th {
   color: var(--global-text-color);
+  width: 15%;
 }
 
 // Social (bottom)
@@ -299,10 +312,10 @@ footer.sticky-bottom {
 
 .publications {
   margin-top: 2rem;
+
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
-    text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
   }
@@ -352,15 +365,17 @@ footer.sticky-bottom {
       }
       .author {
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          border-bottom: 1px dashed var(--global-text-color);
+          color: var(--global-text-color);
           &:hover {
               border-bottom-style: solid;
               text-decoration: none;
           }
         }
         > em {
-          border-bottom: 1px solid;
           font-style: normal;
+          font-weight: normal;
+          color: var(--global-theme-color);
         }
       }
       .links {
@@ -418,7 +433,7 @@ footer.sticky-bottom {
 
 // Rouge Color Customization
 code {
-  color: var(--global-theme-color);
+  color: var(--global-text-color);
 }
 // Transitioning Themes
 html.transition,
