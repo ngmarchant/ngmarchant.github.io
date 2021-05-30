@@ -291,6 +291,35 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      .card-title {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .card {
+    img {
+      width: 100%;
+    }
+    .card-title {
+      color: $black-color;
+    }
+  }
+
+  .card-item {
+    width: auto;
+    margin-bottom: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
+
   .grid-item {
     width: 250px;
     margin-bottom: 10px;
