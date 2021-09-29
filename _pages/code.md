@@ -14,7 +14,7 @@ I have contributed to the following libraries/packages, which were released alon
   pool-based active evaluation in Python.
   Given an unlabelled pool of test instances and a set of classifiers to evaluate, the framework coordinates the 
   acquisition of ground truth labels in order to estimate a performance measure, such as precision and recall.
-  It includes an implementation of our adaptive importance sampling method [(Marchant & Rubinstein, 2020)](/publications/#marchant2020general),
+  It includes an implementation of our adaptive importance sampling method [(Marchant & Rubinstein, 2021)](/publications/#marchant2021needle),
   which aims to minimize asymptotic variance of performance estimates.
   This approach can reduce labelling costs in important scenarios—e.g. significant reductions can be expected when 
   the classes are severely imbalanced. 
