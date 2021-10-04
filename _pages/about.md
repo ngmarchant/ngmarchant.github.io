@@ -19,10 +19,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a postdoctoral researcher in the [Artificial Intelligence](https://cis.unimelb.edu.au/research/artificial-intelligence/){:target="\_blank"} 
+I am a postdoctoral researcher in the [Artificial Intelligence](https://cis.unimelb.edu.au/research/artificial-intelligence/) 
 group at the University of Melbourne. 
-Before that, I completed a PhD at the University of Melbourne under the guidance of [Ben Rubinstein](https://www.bipr.net){:target="\_blank"} 
-and [Rebecca Steorts](https://resteorts.github.io/){:target="\_blank"} (at Duke University).
+Before that, I completed a PhD at the University of Melbourne under the guidance of [Ben Rubinstein](https://www.bipr.net) 
+and [Rebecca Steorts](https://resteorts.github.io/) (at Duke University).
 
 I research topics in machine learning and databases, including data integration, human-in-the-loop systems, and 
 adversarial machine learning. 

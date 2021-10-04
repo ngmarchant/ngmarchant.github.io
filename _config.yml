@@ -10,7 +10,7 @@ email: ngmarchant@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Neil Marchant's personal website.
 footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="http://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
 url:  # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
@@ -133,13 +133,14 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-email-protect
-  - jekyll-github-metadata
-  - jekyll-feed
-  - jekyll-paginate-v2
   - jekyll/scholar
-  - jekyll-twitter-plugin
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-github-metadata
+  - jekyll-paginate-v2
   - jekyll-sitemap
+  - jekyll-target-blank
+  - jekyll-twitter-plugin
   - jemoji
 
 # Extras

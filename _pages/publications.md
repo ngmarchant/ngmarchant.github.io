@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: >
-  Please see my <a href="https://scholar.google.com.au/citations?user=F7cVGr0AAAAJ" target="_blank">Google Scholar profile</a> 
+  Please see my <a href="https://scholar.google.com.au/citations?user=F7cVGr0AAAAJ">Google Scholar profile</a> 
   for bibliometrics.
 years: [2022, 2021, 2017]
 nav: true
