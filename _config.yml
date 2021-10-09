@@ -63,6 +63,8 @@ orcid_id: 0000-0001-5713-4235 # your ORCID ID
 #dblp_url: # your DBLP profile url
 #stackoverflow_id: #your stackoverflow id
 
+rss_icon: true
+
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 
