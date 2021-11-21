@@ -41,11 +41,10 @@
 <link rel="icon" href="{{ '/assets/img/favicon-32x32.png' | relative_url }}" size="32x32" type="image/png">
 <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" size="any" type="image/svg+xml">
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-<link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
 {% if site.enable_darkmode %}
 <!-- Dark Mode -->
 <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
 {% endif %}
-
