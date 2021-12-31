@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: >
+subtitle: >
   Postdoctoral Researcher · <a href="https://cis.unimelb.edu.au">School of Computing and Information Systems</a> · 
   <a href="https://www.unimelb.edu.au">University of Melbourne</a>
 

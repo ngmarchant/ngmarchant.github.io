@@ -17,7 +17,7 @@ nav: true
 
 <h1>Conference Papers & Journal Articles</h1>
 
-{% for y in page.years %}
+{%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f published -q @*[year={{y}}]* %}
 {% endfor %}
