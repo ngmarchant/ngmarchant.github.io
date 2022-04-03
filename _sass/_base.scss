@@ -16,6 +16,15 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
+table {
+    td, th {
+      color: var(--global-text-color);
+    }
+    td {
+      font-size: 1rem;
+    }
+}
+
 a, table.table a {
   color: var(--global-theme-color);
   &:hover {
@@ -80,6 +89,7 @@ blockquote {
 }
 
 // Citation
+
 .citation, .citation-number {
   color: var(--global-theme-color);
 }
@@ -229,23 +239,6 @@ blockquote {
   .bottom-bar {
     transform: rotate(0);
   }
-}
-
-
-// News
-
-.news {
-  margin-top: 2rem;
-}
-
-.news table td {
-  font-size: 1rem;
-  color: var(--global-text-color);
-}
-
-.news table th {
-  color: var(--global-text-color);
-  width: 15%;
 }
 
 // Social (bottom)
