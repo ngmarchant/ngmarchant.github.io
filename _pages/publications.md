@@ -7,7 +7,7 @@ description: >
   for bibliometrics.
 years: [2022, 2021, 2017]
 nav: true
-nav_order: 2
+nav_order: 1
 ---
 
 <div class="publications">
