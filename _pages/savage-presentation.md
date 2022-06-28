@@ -3,9 +3,9 @@ layout: page
 permalink: /isba-2022/
 title: Savage Award Invited Talk
 description: |
-  As a finalist for the Savage Award (Applications) 2022, I have been invited 
+  As a finalist for the Savage Award (Applications) 2022, I was invited 
   to give a talk at the <a href="https://isbawebmaster.github.io/ISBA2022/" target="_blank">ISBA 2022 World Meeting in Montreal</a>. 
-  Since I am unable to travel to Montreal, I will publish a 
+  Since I was unable to travel to Montreal, I have published a 
   pre-recorded video of my talk here.
 nav: false
 ---
