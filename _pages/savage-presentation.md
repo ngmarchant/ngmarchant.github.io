@@ -36,11 +36,11 @@ an adaptive importance sampling framework.
 This allows practitioners to obtain more precise accuracy estimates, with a 
 reduced ground truth label budget.
 
-**Session:**
+**Session:** 
 Savage Award (Applications), June 29 2022, 3:30 pm EDT 
 
-**Video:**
-To come.
+**Slides:** 
+[PDF](/assets/pdf/savage_award_slides_29jun22.pdf)
 
-**Slides:**
-To come.
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PujthqvRaNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
