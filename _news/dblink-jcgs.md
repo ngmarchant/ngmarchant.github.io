@@ -1,4 +1,5 @@
 ---
+title: d-blink published in JCGS
 layout: post
 date: 2020-09-17 13:00:00+1000
 inline: true
