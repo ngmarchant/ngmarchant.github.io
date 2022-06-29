@@ -6,3 +6,4 @@ inline: true
 ---
 
 I presented our work on attacking machine unlearning at [AAAI 2022](https://aaai.org/Conferences/AAAI-22/){:target="\_blank"}.
+A pre-recorded video of the talk is available on [YouTube](https://youtu.be/ywvAF1PnU4Q){:target="\_blank"}.
