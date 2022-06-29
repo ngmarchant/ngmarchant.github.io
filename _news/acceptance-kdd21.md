@@ -6,4 +6,4 @@ inline: true
 ---
 
 Our [paper](https://arxiv.org/abs/2006.06963){:target="\_blank"} on label-efficient online evaluation has been 
-accepted for presentation at [KDD 2021](https://kdd.org/kdd2021/){:target:"\_blank"}.
+accepted for presentation at [KDD 2021](https://kdd.org/kdd2021/){:target="\_blank"}.
