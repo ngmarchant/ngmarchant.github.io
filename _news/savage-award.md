@@ -6,5 +6,5 @@ inline: true
 ---
 
 As a finalist for the [Savage Award](https://bayesian.org/project/savage-award/){:target="\_blank"} 2022, I was 
-invited to present research from my PhD thesis at [ISBA 2022](https://isbawebmaster.github.io/ISBA2022/). 
+invited to present research from my PhD thesis at [ISBA 2022](https://isbawebmaster.github.io/ISBA2022/){:target="\_blank"}. 
 A recording of the presentation is available [here](/isba-2022/).
