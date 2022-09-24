@@ -228,7 +228,7 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: Marchant
+  last_name: [Marchant]
   first_name: [Neil Grant, Neil, N. G., N., Neil G.]
 
   style: modern-language-association
