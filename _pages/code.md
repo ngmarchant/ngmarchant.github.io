@@ -22,7 +22,7 @@ I have contributed to the following libraries/packages, which were released alon
   Scripts for reproducing experiments in the paper are available [`here`](https://github.com/ngmarchant/ativeeval-experiments).
 
 * [`exchanger`](https://github.com/cleanzr/exchanger) is an R package that implements a Bayesian 
-  model for entity resolution as proposed in [(Marchant, Rubinstein & Steorts, 2020)](/publications/#marchant2020bayesian). 
+  model for entity resolution as proposed in [(Marchant, Rubinstein & Steorts, 2022)](/publications/#marchant2022bayesian). 
   The model adopts the Ewens-Pitman family of infinitely-exchangeable random partitions as a prior on the linkage 
   structure and features an improved hit-miss distortion model. 
   The package is partially implemented in C++ and scales to data sets of modest size (~10k records) without 
