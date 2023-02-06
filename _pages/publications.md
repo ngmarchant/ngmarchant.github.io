@@ -12,9 +12,9 @@ for bibliometrics.
 
 <div class="publications">
 
-<!--<h1>Manuscripts & Preprints</h1>
+<h1>Manuscripts & Preprints</h1>
 
-{% bibliography -f working %}-->
+{% bibliography -f working %}
 
 <h1>Conference Papers & Journal Articles</h1>
 

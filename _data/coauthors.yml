@@ -25,3 +25,19 @@
 "Alfeld":
   - firstname: ["Scott", "S."]
     url: https://salfeld.github.io/
+
+"Bauer":
+  - firstname: ["Lujo"]
+    url: https://users.ece.cmu.edu/~lbauer/
+
+"Lucas":
+  - firstname: ["Keane"]
+    url: https://keanelucas.com/
+
+"Ohrimenko":
+  - firstname: ["Olga", "Olya"]
+    url: https://oohrimenko.github.io/
+
+"Huang":
+  - firstname: ["Zhuoqun", "Calvin"]
+    url: https://scholar.google.com.au/citations?user=GnYN5UAAAAAJ&hl=en&inst=4522501446918153378&oi=ao
