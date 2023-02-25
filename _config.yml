@@ -84,6 +84,7 @@ orcid_id: 0000-0001-5713-4235 # your ORCID ID
 # work_url: # work page URL
 # keybase_username: # your keybase user name
 # wikidata_id: # your wikidata id
+#wikipedia_id: # your wikipedia id (Case sensitive)
 #dblp_url: # your DBLP profile url
 #stackoverflow_id: #your stackoverflow id
 #kaggle_id: # your kaggle id
