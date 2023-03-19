@@ -3,6 +3,7 @@ title: Savage Award Invited Talk
 layout: post
 date: 2022-07-30 05:00:00+1000
 inline: true
+related_posts: false
 ---
 
 As a finalist for the [Savage Award](https://bayesian.org/project/savage-award/) 2022, I was 

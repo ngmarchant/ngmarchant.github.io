@@ -3,6 +3,7 @@ title: Attended KDD-21
 layout: post
 date: 2021-08-17 15:00:00+1000
 inline: true
+related_posts: false
 ---
 
 I presented our work on label-efficient online evaluation at [KDD 2021](https://kdd.org/kdd2021/). 
