@@ -20,7 +20,7 @@ for bibliometrics.
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f published -q @*[year={{y}}]* %}
+  {% bibliography -f {{ site.scholar.bibliography }} -q @*[year={{y}}]* %}
 {% endfor %}
 
 <h1>Theses</h1>
