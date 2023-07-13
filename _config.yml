@@ -220,6 +220,7 @@ plugins:
   - jekyll-diagrams
   - jekyll-email-protect
   - jekyll-feed
+  - jekyll-get-json
   - jekyll-imagemagick
   - jekyll-jupyter-notebook
   - jekyll-link-attributes
@@ -229,7 +230,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-toc
   - jekyll-twitter-plugin
-  - jekyll-get-json
   - jemoji
 
 # Sitemap settings
@@ -407,7 +407,7 @@ medium_zoom:
 
 jekyll_get_json:
   - data: resume
-    json: "https://alshedivat.github.io/al-folio/assets/json/resume.json"
+    json: assets/json/resume.json # it can also be an url
 jsonresume:
   - basics
   - work
