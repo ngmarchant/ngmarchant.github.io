@@ -1,5 +1,5 @@
 ---
-title: Attended AAAI-22
+title: Attended AAAI'22
 layout: post
 date: 2022-02-28 15:00:00+1000
 inline: true
