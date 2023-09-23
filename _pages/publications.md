@@ -11,10 +11,12 @@ Please see my <a href="https://scholar.google.com.au/citations?user=F7cVGr0AAAAJ
 for bibliometrics.
 
 <div class="publications">
-
+<!---
 <h1>Manuscripts & Preprints</h1>
-
+-->
+<!---
 {% bibliography -f working %}
+-->
 
 <h1>Conference Papers & Journal Articles</h1>
 
