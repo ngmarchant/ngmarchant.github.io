@@ -4,6 +4,7 @@ permalink: /code/
 title: Code
 description: Research code releases and open-source projects
 nav: true
+nav_order: 2
 ---
 
 ## Research code
