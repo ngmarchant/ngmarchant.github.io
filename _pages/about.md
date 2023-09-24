@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: >
-  Postdoctoral Researcher · <a href="https://cis.unimelb.edu.au">School of Computing and Information Systems</a> · 
+  Postdoctoral Research Fellow · <a href="https://cis.unimelb.edu.au">School of Computing and Information Systems</a> · 
   <a href="https://www.unimelb.edu.au">University of Melbourne</a>
 
 profile:
@@ -22,10 +22,11 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 I am a postdoctoral researcher in the [Artificial Intelligence](https://cis.unimelb.edu.au/research/artificial-intelligence/) 
-group at the University of Melbourne. 
-Before that, I completed a PhD at the University of Melbourne under the guidance of [Ben Rubinstein](https://www.bipr.net) 
+group at the [University of Melbourne](https://www.unimelb.edu.au/). 
+I completed my PhD at the University of Melbourne under the guidance of [Ben Rubinstein](https://www.bipr.net) 
 and [Rebecca Steorts](https://resteorts.github.io/) (at Duke University).
 
-I research topics in machine learning and databases, including data integration, human-in-the-loop systems, and 
-adversarial machine learning. 
-I'm a strong believer in the benefits of reproducible research, and strive to release open source [code](/code/).
+My research interests span machine learning and databases. 
+Recently I have been working on identifying vulnerabilities and improving the robustness of machine learning 
+in adversarial settings. 
+I am also maintain an interest in data integration and statistical evaluation, which was the focus of my PhD. 
