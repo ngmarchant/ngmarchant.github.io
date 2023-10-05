@@ -69,7 +69,7 @@ github_username: ngmarchant # your GitHub handle
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 #mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: ngmarchant # your LinkedIn handle
+linkedin_username: ngmarchant # your LinkedIn user name
 #telegram_username: # your Telegram user name
 scholar_userid: F7cVGr0AAAAJ # your Google Scholar ID
 #semanticscholar_id: # your Semantic Scholar ID
@@ -135,10 +135,8 @@ related_blog_posts:
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
 # giscus:
-#   repo: alshedivat/al-folio      # <your-github-user-name>/<your-github-repo-name>
-#   repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
+#   repo:                          # <your-github-user-name>/<your-github-repo-name>
 #   category: Comments             # name of the category under which discussions will be created
-#   category_id: DIC_kwDOA5PmLc4CTBt6
 #   mapping: title                 # identify discussions by post title
 #   strict: 1                      # use strict identification mode
 #   reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
@@ -148,8 +146,7 @@ related_blog_posts:
 #   lang: en
 
 # Disqus comments (DEPRECATED)
-
-# disqus_shortname: al-folio # put your disqus shortname
+# disqus_shortname:  # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -295,6 +292,8 @@ scholar:
   details_link: Details
 
   query: "@*"
+  group_by: year
+  group_order: descending
 
 badges: # Display different badges for your publications
   altmetric_badge: false # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
@@ -306,6 +305,7 @@ filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, select
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit:   # leave blank to always show all authors
 more_authors_animation_delay: 10  # more authors are revealed on click using animation; smaller delay means faster animation
+
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
@@ -360,7 +360,7 @@ enable_masonry:             true   # enables automatic project cards arrangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
-enable_darkmode:            false   # enables switching between light/dark modes
+enable_darkmode:            true   # enables switching between light/dark modes
 enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
