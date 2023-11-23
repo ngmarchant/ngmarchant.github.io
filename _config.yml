@@ -65,9 +65,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: ngmarchant # your GitHub handle
+github_username: ngmarchant # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
+# x_username: # your X handle
 #mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: ngmarchant # your LinkedIn user name
 #telegram_username: # your Telegram user name
@@ -295,7 +295,7 @@ scholar:
   group_by: year
   group_order: descending
 
-badges: # Display different badges for your publications
+# Display different badges withs stats for your publications
 enable_publication_badges:
   altmetric_badge: false # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
   dimensions_badge: false # Dimensions badge (https://badge.dimensions.ai/)
