@@ -26,7 +26,7 @@ group at the [University of Melbourne](https://www.unimelb.edu.au/).
 I completed my PhD at the University of Melbourne under the guidance of [Ben Rubinstein](https://www.bipr.net) 
 and [Rebecca Steorts](https://resteorts.github.io/) (at Duke University).
 
-My research interests span machine learning and databases. 
+My research interests span machine learning, security and databases. 
 Recently I have been working on identifying vulnerabilities and improving the robustness of machine learning 
 in adversarial settings. 
-I am also maintain an interest in data integration and statistical evaluation, which was the focus of my PhD. 
+I also maintain an interest in data integration and statistical evaluation, which was the focus of my PhD. 
