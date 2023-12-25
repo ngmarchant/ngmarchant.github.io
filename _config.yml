@@ -88,7 +88,7 @@ orcid_id: 0000-0001-5713-4235 # your ORCID ID
 # wikidata_id: # your wikidata id
 #wikipedia_id: # your wikipedia id (Case sensitive)
 #dblp_url: # your DBLP profile url
-#stackoverflow_id: #your stackoverflow id
+#stackoverflow_id: # your stackoverflow id
 #kaggle_id: # your kaggle id
 #lastfm_id: # your lastfm id
 #spotify_id: # your spotify id
@@ -119,7 +119,6 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: # blog_name will be displayed in your blog page
-blog_nav_title:  # your blog must have a title for it to be displayed in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
@@ -297,8 +296,8 @@ scholar:
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
-  altmetric_badge: false # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
-  dimensions_badge: false # Dimensions badge (https://badge.dimensions.ai/)
+  altmetric: false # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
+  dimensions: false # Dimensions badge (https://badge.dimensions.ai/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]

@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 years: [2023, 2022, 2021, 2017]
 nav: true
-nav_order: 1
+nav_order: 2
 ---
 
 Please see my <a href="https://scholar.google.com.au/citations?user=F7cVGr0AAAAJ">Google Scholar profile</a> 
