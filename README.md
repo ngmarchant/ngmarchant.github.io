@@ -250,117 +250,6 @@ You can create a people page if you want to feature more than one person. Each p
 
 ---
 
-#### Upgrading from a previous version
-
-If you installed **al-folio** as described above, you can configure a [GitHub action](https://github.com/AndreasAugustin/actions-template-sync) to automatically sync your repository with the latest version of the theme.
-
-Go to Settings -> Actions -> General -> Workflow permissions, give Read and write permissions to GitHub Actions, check "Allow GitHub Actions to create and approve pull requests", and save your changes.
-
-Then go to Actions -> New workflow -> set up a workflow yourself, setup the following workflow and commit your changes:
-
-```yaml
-name: Sync from template
-on:
-    # cronjob trigger
-  schedule:
-  - cron:  "0 0 1 * *"
-  # manual trigger
-  workflow_dispatch:
-jobs:
-  repo-sync:
-    runs-on: ubuntu-latest
-    steps:
-      # To use this repository's private action, you must check out the repository
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: actions-template-sync
-        uses: AndreasAugustin/actions-template-sync@v0.7.3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          source_repo_path: alshedivat/al-folio
-          upstream_branch: master
-```
-
-You will receive a pull request within your repository if there are some changes available in the template.
-
-Another option is to manually update your code by following the steps below:
-
-```bash
-# Assuming the current directory is <your-repo-name>
-$ git remote add upstream https://github.com/alshedivat/al-folio.git
-$ git fetch upstream
-$ git rebase v0.9.0
-```
-
-If you have extensively customized a previous version, it might be trickier to upgrade.
-You can still follow the steps above, but `git rebase` may result in merge conflicts that must be resolved.
-See [git rebase manual](https://help.github.com/en/github/using-git/about-git-rebase) and how to [resolve conflicts](https://help.github.com/en/github/using-git/resolving-merge-conflicts-after-a-git-rebase) for more information.
-If rebasing is too complicated, we recommend re-installing the new version of the theme from scratch and port over your content and changes from the previous version manually.
-
----
-
-### FAQ
-
-Here are some frequently asked questions.
-If you have a different question, please ask using [Discussions](https://github.com/alshedivat/al-folio/discussions/categories/q-a).
-
-1. **Q:** After I create a new repository from this template and setup the repo, I get a deployment error.
-   Isn't the website supposed to correctly deploy automatically? <br>
-   **A:** Yes, if you are using release `v0.3.5` or later, the website will automatically and correctly re-deploy right after your first commit.
-   Please make some changes (e.g., change your website info in `_config.yml`), commit, and push.
-   Make sure to follow [deployment instructions](https://github.com/alshedivat/al-folio#deployment) in the previous section.
-   (Relevant issue: [209](https://github.com/alshedivat/al-folio/issues/209#issuecomment-798849211).)
-
-2. **Q:** I am using a custom domain (e.g., `foo.com`).
-   My custom domain becomes blank in the repository settings after each deployment.
-   How do I fix that? <br>
-   **A:** You need to add `CNAME` file to the `master` or `source` branch of your repository.
-   The file should contain your custom domain name.
-   (Relevant issue: [130](https://github.com/alshedivat/al-folio/issues/130).)
-
-3. **Q:** My webpage works locally.
-    But after deploying, it fails to build and throws `Unknown tag 'toc'`.
-    How do I fix that? <br>
-   **A:** Make sure you followed through the [deployment instructions](#deployment) in the previous section.
-   You should have set the deployment branch to `gh-pages`.
-   (Related issue: [1438](https://github.com/alshedivat/al-folio/issues/1438).)
-
-4. **Q:** My webpage works locally.
-    But after deploying, it is not displayed correctly (CSS and JS is not loaded properly).
-    How do I fix that? <br>
-   **A:** Make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`.
-   Set `url` to `https://<your-github-username>.github.io` or to `https://<your.custom.domain>` if you are using a custom domain.
-   If you are deploying a personal or organization website, leave `baseurl` blank.
-   If you are deploying a project page, set `baseurl: /<your-project-name>/`.
-   If all previous steps were done correctly, all is missing is
-   [for your browser to fetch again the site stylesheet](https://github.com/alshedivat/al-folio/issues/1398#issuecomment-1609518404).
-
-5. **Q:** Atom feed doesn't work. Why?
-   <br>
-   **A:** Make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`.
-  RSS Feed plugin works with these correctly set up fields: `title`, `url`, `description` and `author`.
-  Make sure to fill them in an appropriate way and try again.
-
-6. **Q:** My site doesn't work when I enable `related_blog_posts`. Why? <br>
-   **A:** This is probably due to the [classifier reborn](https://github.com/jekyll/classifier-reborn) plugin, which is used to calculate
-   related posts. If the error states `Liquid Exception: Zero vectors can not be normalized...`, it means that it could not calculate related
-   posts for a specific post. This is usually caused by [empty or minimal blog posts](https://github.com/jekyll/classifier-reborn/issues/64)
-   without meaningful words (i.e. only [stop words](https://en.wikipedia.org/wiki/Stop_words)) or even
-   [specific characters](https://github.com/jekyll/classifier-reborn/issues/194) you used in your posts. Also, the calculus for similar posts are
-   made for every `post`, which means every page that uses `layout: post`, including the announcements. To change this behavior, simply add
-   `related_posts: false` to the front matter of the page you don't want to display related posts on.
-
-7. **Q:** When trying to deploy, it's asking for github login credentials, which github disabled password authentication and it exits with an error. How to fix?     <br>
-   **A:** Open .git/config file using your preferred editor. Change the `https` portion of the `url` variable to `ssh`. Try deploying again.
-
-## Features
-
-### CV
-
-There are currently 2 different ways of generating the CV page content. The first one is by using a json file located in `assets/json/resume.json`. It is a [known standard](https://jsonresume.org/) for creating a CV programmatically. The second one, currently used as a fallback when the json file is not found, is by using a yml file located in `_data/cv.yml`. This was the original way of creating the CV page content and since it is more human readable than a json file we decided to keep it as an option.
-
-What this means is, if there is no resume data defined in `_config.yml` and loaded via a json file, it will load the contents of `_data/cv.yml` as fallback.
-
 ### Publications
 
 Your publications' page is generated automatically from your BibTex bibliography. Simply edit [\_bibliography/papers.bib](_bibliography/papers.bib). You can also add new `*.bib` files and customize the look of your publications however you like by editing [\_pages/publications.md](_pages/publications.md). By default, the publications will be sorted by year and the most recent will be displayed first. You can change this behavior and more in the `Jekyll Scholar` section in [\_config.yml](_config.yml) file.
@@ -528,7 +417,15 @@ Our most active contributors are welcome to join the maintainers team. If you ar
   <img src="https://contrib.rocks/image?repo=alshedivat/al-folio" />
 </a>
 
-Made with [contrib.rocks](https://contrib.rocks).
+### Star History
+
+<a href="https://star-history.com/#alshedivat/al-folio&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=alshedivat/al-folio&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=alshedivat/al-folio&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=alshedivat/al-folio&type=Date" />
+  </picture>
+</a>
 
 ## License
 
