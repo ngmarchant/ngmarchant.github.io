@@ -8,4 +8,6 @@ services:
       - 8080:8080
       - 35729:35729
     volumes:
-      - .:/srv/jekyll:Z
+      - .:/srv/jekyll
+    environment:
+      - JEKYLL_ENV=development
