@@ -6,5 +6,5 @@ inline: true
 related_posts: false
 ---
 
-I'm presenting our work on distributed Bayesian entity resolution at the [Conference on Current Trends in Survey Statistics](https://ims.nus.edu.sg/orgsites/2019data/)
+I'm presenting our work on distributed Bayesian entity resolution at the [Conference on Current Trends in Survey Statistics](https://web.archive.org/web/20190712161416/https://ims.nus.edu.sg/orgsites/2019data/)
 at the National University of Singapore.

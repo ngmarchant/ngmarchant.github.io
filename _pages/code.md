@@ -20,7 +20,7 @@ I have contributed to the following libraries/packages, which were released alon
   This approach can reduce labelling costs in important scenarios—e.g. significant reductions can be expected when 
   the classes are severely imbalanced. 
   This occurs, for example, when evaluating record linkage/entity resolution systems.
-  Scripts for reproducing experiments in the paper are available [`here`](https://github.com/ngmarchant/ativeeval-experiments).
+  Scripts for reproducing experiments in the paper are available [`here`](https://github.com/ngmarchant/activeeval-experiments).
 
 * [`exchanger`](https://github.com/cleanzr/exchanger) is an R package that implements a Bayesian 
   model for entity resolution as proposed in [(Marchant, Rubinstein & Steorts, 2022)](/publications/#marchant2022bayesian). 
@@ -28,9 +28,6 @@ I have contributed to the following libraries/packages, which were released alon
   structure and features an improved hit-miss distortion model. 
   The package is partially implemented in C++ and scales to data sets of modest size (~10k records) without 
   blocking.
-  {% comment %} 
-  The package is available on [CRAN](https://cran.r-project.org/web/packages/exchanger/). 
-  {% endcomment %}
 
 * [`dblink`](https://github.com/cleanzr/dblink) is an Apache Spark package for distributed 
   end-to-end Bayesian entity resolution. 

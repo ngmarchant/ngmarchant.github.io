@@ -41,5 +41,5 @@ Savage Award (Applications), June 29 2022, 3:30 pm EDT
 **Slides:** 
 [PDF](/assets/pdf/savage_award_slides_29jun22.pdf)
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PujthqvRaNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PujthqvRaNQ?si=Fqxf20JiIjA5PXaz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
