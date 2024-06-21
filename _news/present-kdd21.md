@@ -6,5 +6,5 @@ inline: true
 related_posts: false
 ---
 
-I presented our work on label-efficient online evaluation at [KDD 2021](https://kdd.org/kdd2021/). 
+I presented our work on label-efficient online evaluation at [KDD 2021](https://kdd.org/kdd2021/).
 A pre-recorded version of the talk is available at the [ACM DL](https://dl.acm.org/doi/10.1145/3447548.3467435#video_stream_uuid%3Aeff6337b-7642-4147-a135-8d0dac98bbce).

@@ -6,7 +6,7 @@ nav: true
 nav_order: 2
 ---
 
-Please see my <a href="https://scholar.google.com.au/citations?user=F7cVGr0AAAAJ">Google Scholar profile</a> 
+Please see my <a href="https://scholar.google.com.au/citations?user=F7cVGr0AAAAJ">Google Scholar profile</a>
 for bibliometrics.
 
 <!-- _pages/publications.md -->

@@ -6,5 +6,5 @@ inline: true
 related_posts: false
 ---
 
-Our [paper](https://arxiv.org/abs/1909.06039) on distributed Bayesian entity resolution was accepted 
+Our [paper](https://arxiv.org/abs/1909.06039) on distributed Bayesian entity resolution was accepted
 for publication in the [Journal of Computational and Graphical Statistics](https://www.tandfonline.com/toc/ucgs20/current).
