@@ -311,9 +311,9 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Marchant]
-  first_name: [Neil Grant, Neil, N. G., N., Neil G.]
+  first_name: [Neil Grant, Neil, N. G., N., Neil G., Neil G, N G]
 
-  style: modern-language-association
+  style: apa
   locale: en
 
   source: /_bibliography/
