@@ -41,3 +41,23 @@
 "huang":
   - firstname: ["Zhuoqun", "Calvin"]
     url: https://scholar.google.com.au/citations?user=GnYN5UAAAAAJ
+
+"cullen":
+  - firstname: ["Andrew", "Andrew C.", "A. C."]
+    url: https://www.andrewcraigcullen.com
+
+"liu":
+  - firstname: ["Feng"]
+    url: https://fengliu90.github.io/
+
+"erfani":
+  - firstname: ["Sarah", "Sarah M.", "S. M."]
+    url: https://people.eng.unimelb.edu.au/smonazam/
+
+"zhao":
+  - firstname: ["Ying"]
+    url: https://scholar.google.com/citations?user=6e-e6Q4AAAAJ
+
+"bulychev":
+  - firstname: ["Maria"]
+    url: https://cis.unimelb.edu.au/people/graduate-researchers/artificial-intelligence/maria-bulychev
