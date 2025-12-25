@@ -1,11 +1,11 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: CV
 nav: true
-nav_order: 5
-cv_pdf: ngmarchant-cv.pdf # you can also use external links here
-# description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+nav_order: 100
 ---
+
+<object data="{{ '/assets/pdf/ngmarchant-cv.pdf' | relative_url }}" width="100%" height="800" type='application/pdf'>
+    <p>Click <a href="{{ '/assets/pdf/ngmarchant-cv.pdf' | relative_url }}">here</a> to download.</p>
+</object>
