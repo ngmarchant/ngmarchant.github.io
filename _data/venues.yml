@@ -1,9 +1,30 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"AAAI":
+  url: https://aaai.org/conference/aaai/
 
-"PhysRev":
-  url: https://journals.aps.org/
+"arXiv":
+  url: https://arxiv.org/
 
-"Vision":
-  color: "#009f36"
+"EMNLP":
+  url: https://sigdat.org/
+
+"JCGS":
+  url: https://www.tandfonline.com/toc/ucgs20/current
+
+"JPCM":
+  url: https://iopscience.iop.org/journal/0953-8984
+
+"JSSAM":
+  url: https://academic.oup.com/jssam
+
+"KDD":
+  url: https://kdd.org/conferences
+
+"NeurIPS":
+  url: https://neurips.cc
+
+"VLDB":
+  url: https://www.vldb.org/conference.html
+
+"WACV":
+  url: https://wacv.thecvf.com/
+
