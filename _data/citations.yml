@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-16'
+  last_updated: '2026-01-23'
 papers:
   F7cVGr0AAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -14,7 +14,7 @@ papers:
     title: On the Bayes Inconsistency of Disagreement Discrepancy Surrogates
     year: '2025'
   F7cVGr0AAAAJ:IjCSPb-OGe4C:
-    citations: 115
+    citations: 116
     title: 'Hard to forget: Poisoning attacks on certified machine unlearning'
     year: '2022'
   F7cVGr0AAAAJ:Se3iqnhoufwC:
