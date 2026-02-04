@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-23'
+  last_updated: '2026-02-04'
 papers:
   F7cVGr0AAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -14,11 +14,11 @@ papers:
     title: On the Bayes Inconsistency of Disagreement Discrepancy Surrogates
     year: '2025'
   F7cVGr0AAAAJ:IjCSPb-OGe4C:
-    citations: 116
+    citations: 119
     title: 'Hard to forget: Poisoning attacks on certified machine unlearning'
     year: '2022'
   F7cVGr0AAAAJ:Se3iqnhoufwC:
-    citations: 39
+    citations: 38
     title: 'RS-Del: Edit distance robustness certificates for sequence classifiers via randomized deletion'
     year: '2023'
   F7cVGr0AAAAJ:UeHWp8X0CEIC:
@@ -49,10 +49,6 @@ papers:
     citations: 36
     title: 'd-blink: Distributed end-to-end Bayesian entity resolution'
     year: '2021'
-  F7cVGr0AAAAJ:mVmsd5A6BfQC:
-    citations: 0
-    title: Enterprise AI Analysis
-    year: Unknown Year
   F7cVGr0AAAAJ:qxL8FJ1GzNcC:
     citations: 0
     title: 'AdaptDel: Adaptable Deletion Rate Randomized Smoothing for Certified Robustness'
