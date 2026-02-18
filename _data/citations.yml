@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-02-04'
+  last_updated: '2026-02-18'
 papers:
   F7cVGr0AAAAJ:0EnyYjriUFMC:
-    citations: 0
+    citations: 1
     title: Adaptive Data Analysis for Growing Data
     year: '2024'
   F7cVGr0AAAAJ:2osOgNQ5qMEC:
@@ -13,12 +13,16 @@ papers:
     citations: 0
     title: On the Bayes Inconsistency of Disagreement Discrepancy Surrogates
     year: '2025'
+  F7cVGr0AAAAJ:9ZlFYXVOiuMC:
+    citations: 0
+    title: "Package \u2018comparator\u2019"
+    year: '2025'
   F7cVGr0AAAAJ:IjCSPb-OGe4C:
     citations: 119
     title: 'Hard to forget: Poisoning attacks on certified machine unlearning'
     year: '2022'
   F7cVGr0AAAAJ:Se3iqnhoufwC:
-    citations: 38
+    citations: 40
     title: 'RS-Del: Edit distance robustness certificates for sequence classifiers via randomized deletion'
     year: '2023'
   F7cVGr0AAAAJ:UeHWp8X0CEIC:
@@ -26,7 +30,7 @@ papers:
     title: Vortex Lattices in Quasi-Two-Dimensional Dipolar Bose-Einstein Condensates
     year: '2014'
   F7cVGr0AAAAJ:UebtZRa9Y70C:
-    citations: 7
+    citations: 8
     title: 'Needle in a Haystack: Label-Efficient Evaluation under Extreme Class Imbalance'
     year: '2021'
   F7cVGr0AAAAJ:Wp0gIr-vW9MC:
@@ -58,6 +62,6 @@ papers:
     title: Vortices and vortex lattices in quantum ferrofluids
     year: '2017'
   F7cVGr0AAAAJ:u5HHmVD_uO8C:
-    citations: 32
+    citations: 33
     title: 'In Search of an Entity Resolution OASIS: Optimal Asymptotic Sequential Importance Sampling'
     year: '2017'
