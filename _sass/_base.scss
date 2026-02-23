@@ -6,6 +6,13 @@ html {
   scroll-padding-top: 57px; /* height of sticky header */
 }
 
+html,
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+}
+
 // Typography
 
 p,
@@ -766,7 +773,7 @@ footer.sticky-bottom {
           color: var(--global-card-bg-color) !important;
 
           a {
-            color: white;
+            color: inherit;
 
             &:hover {
               text-decoration: none;
@@ -926,6 +933,8 @@ pre {
 
   pre,
   code {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
     background-color: transparent;
     border-radius: 0;
     margin-bottom: 0;
@@ -937,6 +946,8 @@ pre {
 code {
   color: var(--global-theme-color);
   background-color: var(--global-code-bg-color);
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
   border-radius: 3px;
   padding: 3px 3px;
 
