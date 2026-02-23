@@ -121,6 +121,10 @@ html[data-theme="dark"] {
   .only-dark {
     display: block;
   }
+
+  .highlight pre {
+    background-color: #{$code-bg-color-dark} !important;
+  }
 }
 
 html[data-theme-setting="dark"] {
