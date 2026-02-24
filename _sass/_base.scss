@@ -10,13 +10,31 @@ html,
 body {
   font-family: "IBM Plex Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 // Typography
 
 .font-weight-semibold {
   font-weight: 500 !important;
+}
+
+// Vendor font-weight overrides (Bootstrap/MDB): 300 -> 400
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.lead,
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.card .md-form label,
+table td {
+  font-weight: 400 !important;
 }
 
 p,
@@ -268,6 +286,18 @@ ul.task-list input[type="checkbox"] {
   opacity: 0.95;
 }
 
+// Minimal MDB navbar 300 -> 400 overrides
+.navbar,
+.navbar .breadcrumb,
+.navbar .dropdown-menu a {
+  font-weight: 400 !important;
+}
+
+.navbar.navbar-light form .md-form .form-control::placeholder,
+.navbar.navbar-dark form .md-form .form-control::placeholder {
+  font-weight: 400 !important;
+}
+
 .navbar .dropdown-menu,
 .btn-group.dropdown .dropdown-menu {
   background-color: var(--global-bg-color);
@@ -326,7 +356,7 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
-    font-weight: bolder;
+    font-weight: 500;
     color: var(--global-theme-color);
 
     &:hover {
@@ -792,7 +822,7 @@ footer.sticky-bottom {
       }
 
       .title {
-        font-weight: bolder;
+        font-weight: 500;
       }
 
       .author {
