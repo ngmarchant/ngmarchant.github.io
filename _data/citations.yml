@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-18'
+  last_updated: '2026-03-06'
 papers:
   F7cVGr0AAAAJ:0EnyYjriUFMC:
     citations: 1
@@ -18,11 +18,11 @@ papers:
     title: "Package \u2018comparator\u2019"
     year: '2025'
   F7cVGr0AAAAJ:IjCSPb-OGe4C:
-    citations: 119
+    citations: 121
     title: 'Hard to forget: Poisoning attacks on certified machine unlearning'
     year: '2022'
   F7cVGr0AAAAJ:Se3iqnhoufwC:
-    citations: 40
+    citations: 41
     title: 'RS-Del: Edit distance robustness certificates for sequence classifiers via randomized deletion'
     year: '2023'
   F7cVGr0AAAAJ:UeHWp8X0CEIC:
@@ -36,13 +36,13 @@ papers:
   F7cVGr0AAAAJ:Wp0gIr-vW9MC:
     citations: 0
     title: Where is the Watermark? Interpretable Watermark Detection at the Block Level
-    year: '2025'
+    year: '2026'
   F7cVGr0AAAAJ:Y0pCki6q_DkC:
     citations: 7
     title: Bayesian graphical entity resolution using exchangeable random partition priors
     year: '2023'
   F7cVGr0AAAAJ:Zph67rFs4hoC:
-    citations: 3
+    citations: 4
     title: 'Cert-ed: Certifiably robust text classification for edit distance'
     year: '2024'
   F7cVGr0AAAAJ:aqlVkmm33-oC:
