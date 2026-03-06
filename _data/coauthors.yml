@@ -50,6 +50,10 @@
   - firstname: ["Feng"]
     url: https://fengliu90.github.io/
 
+"liu":
+  - firstname: ["Yinyihong", "Y. Liu"]
+    url: https://scholars.duke.edu/person/yinyihong.liu
+
 "erfani":
   - firstname: ["Sarah", "Sarah M.", "S. M."]
     url: https://people.eng.unimelb.edu.au/smonazam/
@@ -61,3 +65,7 @@
 "bulychev":
   - firstname: ["Maria"]
     url: https://cis.unimelb.edu.au/people/graduate-researchers/artificial-intelligence/maria-bulychev
+
+"aleshin-guendel":
+  - firstname: ["Serge"]
+    url: https://aleshing.github.io
