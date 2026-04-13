@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-01'
+  last_updated: '2026-04-13'
 papers:
   F7cVGr0AAAAJ:0EnyYjriUFMC:
     citations: 1
@@ -7,8 +7,8 @@ papers:
     year: '2024'
   F7cVGr0AAAAJ:2osOgNQ5qMEC:
     citations: 0
-    title: Statistical Approaches for Entity Resolution under Uncertainty
-    year: '2021'
+    title: Statistical Approaches for Entity Resolution under Uncertainty.
+    year: '2020'
   F7cVGr0AAAAJ:4DMP91E08xMC:
     citations: 0
     title: On the Bayes Inconsistency of Disagreement Discrepancy Surrogates
@@ -18,7 +18,7 @@ papers:
     title: "Package \u2018comparator\u2019"
     year: '2025'
   F7cVGr0AAAAJ:IjCSPb-OGe4C:
-    citations: 123
+    citations: 124
     title: 'Hard to forget: Poisoning attacks on certified machine unlearning'
     year: '2022'
   F7cVGr0AAAAJ:Se3iqnhoufwC:
@@ -43,7 +43,7 @@ papers:
     year: '2023'
   F7cVGr0AAAAJ:Zph67rFs4hoC:
     citations: 4
-    title: 'Cert-ed: Certifiably robust text classification for edit distance'
+    title: 'CERT-ED: Certifiably robust text classification for edit distance'
     year: '2024'
   F7cVGr0AAAAJ:aqlVkmm33-oC:
     citations: 0
