@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-13'
+  last_updated: '2026-04-20'
 papers:
   F7cVGr0AAAAJ:0EnyYjriUFMC:
     citations: 1
@@ -18,7 +18,7 @@ papers:
     title: "Package \u2018comparator\u2019"
     year: '2025'
   F7cVGr0AAAAJ:IjCSPb-OGe4C:
-    citations: 124
+    citations: 126
     title: 'Hard to forget: Poisoning attacks on certified machine unlearning'
     year: '2022'
   F7cVGr0AAAAJ:Se3iqnhoufwC:
@@ -50,7 +50,7 @@ papers:
     title: Data Privacy in Enterprise AI
     year: '2025'
   F7cVGr0AAAAJ:d1gkVwhDpl0C:
-    citations: 36
+    citations: 38
     title: 'd-blink: Distributed end-to-end Bayesian entity resolution'
     year: '2021'
   F7cVGr0AAAAJ:qxL8FJ1GzNcC:
