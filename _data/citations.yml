@@ -1,10 +1,10 @@
 metadata:
-  last_updated: '2026-05-04'
+  last_updated: '2026-05-18'
 papers:
   F7cVGr0AAAAJ:0EnyYjriUFMC:
     citations: 1
     title: Adaptive Data Analysis for Growing Data
-    year: '2024'
+    year: '2026'
   F7cVGr0AAAAJ:2osOgNQ5qMEC:
     citations: 0
     title: Statistical Approaches for Entity Resolution under Uncertainty.
@@ -16,13 +16,13 @@ papers:
   F7cVGr0AAAAJ:9ZlFYXVOiuMC:
     citations: 0
     title: "Package \u2018comparator\u2019"
-    year: '2025'
+    year: '2022'
   F7cVGr0AAAAJ:IjCSPb-OGe4C:
-    citations: 126
+    citations: 127
     title: 'Hard to forget: Poisoning attacks on certified machine unlearning'
     year: '2022'
   F7cVGr0AAAAJ:Se3iqnhoufwC:
-    citations: 41
+    citations: 42
     title: 'RS-Del: Edit distance robustness certificates for sequence classifiers via randomized deletion'
     year: '2023'
   F7cVGr0AAAAJ:UeHWp8X0CEIC:
@@ -42,7 +42,7 @@ papers:
     title: Bayesian graphical entity resolution using exchangeable random partition priors
     year: '2023'
   F7cVGr0AAAAJ:Zph67rFs4hoC:
-    citations: 4
+    citations: 5
     title: 'CERT-ED: Certifiably robust text classification for edit distance'
     year: '2024'
   F7cVGr0AAAAJ:aqlVkmm33-oC:
@@ -50,15 +50,15 @@ papers:
     title: Data Privacy in Enterprise AI
     year: '2025'
   F7cVGr0AAAAJ:d1gkVwhDpl0C:
-    citations: 39
+    citations: 40
     title: 'd-blink: Distributed end-to-end Bayesian entity resolution'
     year: '2021'
   F7cVGr0AAAAJ:qxL8FJ1GzNcC:
     citations: 0
     title: 'AdaptDel: Adaptable Deletion Rate Randomized Smoothing for Certified Robustness'
-    year: '2025'
+    year: '2026'
   F7cVGr0AAAAJ:u-x6o8ySG0sC:
-    citations: 50
+    citations: 51
     title: Vortices and vortex lattices in quantum ferrofluids
     year: '2017'
   F7cVGr0AAAAJ:u5HHmVD_uO8C:
