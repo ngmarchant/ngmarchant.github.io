@@ -12,6 +12,7 @@ services:
     #     GROUPNAME: # id -gn
     #     USERID: # id -u
     #     USERNAME: # echo $USER
+    userns_mode: keep-id
     ports:
       - 8080:8080
       - 35729:35729
