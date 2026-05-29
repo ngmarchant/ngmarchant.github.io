@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-18'
+  last_updated: '2026-05-29'
 papers:
   F7cVGr0AAAAJ:0EnyYjriUFMC:
     citations: 1
@@ -18,9 +18,13 @@ papers:
     title: "Package \u2018comparator\u2019"
     year: '2022'
   F7cVGr0AAAAJ:IjCSPb-OGe4C:
-    citations: 127
+    citations: 128
     title: 'Hard to forget: Poisoning attacks on certified machine unlearning'
     year: '2022'
+  F7cVGr0AAAAJ:QIV2ME_5wuYC:
+    citations: 0
+    title: 'Watermarks Attack Watermarks: Re-Watermarking as a Generic Removal Strategy'
+    year: '2026'
   F7cVGr0AAAAJ:Se3iqnhoufwC:
     citations: 42
     title: 'RS-Del: Edit distance robustness certificates for sequence classifiers via randomized deletion'
@@ -50,7 +54,7 @@ papers:
     title: Data Privacy in Enterprise AI
     year: '2025'
   F7cVGr0AAAAJ:d1gkVwhDpl0C:
-    citations: 40
+    citations: 41
     title: 'd-blink: Distributed end-to-end Bayesian entity resolution'
     year: '2021'
   F7cVGr0AAAAJ:qxL8FJ1GzNcC:
