@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-26'
+  last_updated: '2026-07-03'
 papers:
   F7cVGr0AAAAJ:0EnyYjriUFMC:
     citations: 1
@@ -46,11 +46,11 @@ papers:
     title: Bayesian graphical entity resolution using exchangeable random partition priors
     year: '2023'
   F7cVGr0AAAAJ:Zph67rFs4hoC:
-    citations: 5
+    citations: 6
     title: 'CERT-ED: Certifiably robust text classification for edit distance'
     year: '2024'
   F7cVGr0AAAAJ:aqlVkmm33-oC:
-    citations: 0
+    citations: 1
     title: Data Privacy in Enterprise AI
     year: '2025'
   F7cVGr0AAAAJ:d1gkVwhDpl0C:
@@ -62,7 +62,7 @@ papers:
     title: 'AdaptDel: Adaptable Deletion Rate Randomized Smoothing for Certified Robustness'
     year: '2026'
   F7cVGr0AAAAJ:u-x6o8ySG0sC:
-    citations: 52
+    citations: 51
     title: Vortices and vortex lattices in quantum ferrofluids
     year: '2017'
   F7cVGr0AAAAJ:u5HHmVD_uO8C:
