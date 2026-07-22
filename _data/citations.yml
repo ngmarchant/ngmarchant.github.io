@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-03'
+  last_updated: '2026-07-22'
 papers:
   F7cVGr0AAAAJ:0EnyYjriUFMC:
     citations: 1
@@ -13,12 +13,16 @@ papers:
     citations: 0
     title: On the Bayes Inconsistency of Disagreement Discrepancy Surrogates
     year: '2025'
+  F7cVGr0AAAAJ:7PzlFSSx8tAC:
+    citations: 0
+    title: What Was That Again? Certified Robustness for Automatic Speech Recognition
+    year: '2026'
   F7cVGr0AAAAJ:9ZlFYXVOiuMC:
     citations: 0
     title: "Package \u2018comparator\u2019"
     year: '2022'
   F7cVGr0AAAAJ:IjCSPb-OGe4C:
-    citations: 128
+    citations: 131
     title: 'Hard to forget: Poisoning attacks on certified machine unlearning'
     year: '2022'
   F7cVGr0AAAAJ:QIV2ME_5wuYC:
@@ -26,7 +30,7 @@ papers:
     title: 'Watermarks Attack Watermarks: Re-Watermarking as a Generic Removal Strategy'
     year: '2026'
   F7cVGr0AAAAJ:Se3iqnhoufwC:
-    citations: 42
+    citations: 44
     title: 'RS-Del: Edit distance robustness certificates for sequence classifiers via randomized deletion'
     year: '2023'
   F7cVGr0AAAAJ:UeHWp8X0CEIC:
@@ -46,7 +50,7 @@ papers:
     title: Bayesian graphical entity resolution using exchangeable random partition priors
     year: '2023'
   F7cVGr0AAAAJ:Zph67rFs4hoC:
-    citations: 6
+    citations: 7
     title: 'CERT-ED: Certifiably robust text classification for edit distance'
     year: '2024'
   F7cVGr0AAAAJ:aqlVkmm33-oC:
@@ -57,6 +61,10 @@ papers:
     citations: 41
     title: 'd-blink: Distributed end-to-end Bayesian entity resolution'
     year: '2021'
+  F7cVGr0AAAAJ:dhFuZR0502QC:
+    citations: 0
+    title: 'Room for Error: Large-Scale Simulation of Over-the-Air Acoustic Attacks'
+    year: '2026'
   F7cVGr0AAAAJ:qxL8FJ1GzNcC:
     citations: 0
     title: 'AdaptDel: Adaptable Deletion Rate Randomized Smoothing for Certified Robustness'
