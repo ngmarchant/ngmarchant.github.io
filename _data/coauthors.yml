@@ -1,26 +1,6 @@
-"rubinstein":
-  - firstname: ["Benjamin", "Ben", "Benjamin I. P.", "B. I. P."]
-    url: https://www.bipr.net/
-
-"steorts":
-  - firstname: ["Rebecca", "Rebecca C.", "R. C."]
-    url: https://resteorts.github.io
-
-"kaplan":
-  - firstname: ["Andee", "A."]
-    url: https://andeekaplan.com/
-
-"martin":
-  - firstname: ["A. M."]
-    url: https://findanexpert.unimelb.edu.au/profile/29090-andy-martin
-
-"o'Dell":
-  - firstname: ["D. H. J."]
-    url: https://physwww.mcmaster.ca/people/faculty/O%27Dell/O%27Dell_DHJ_h.html
-
-"parker":
-  - firstname: ["N. G.", "N."]
-    url: https://www.ncl.ac.uk/maths-physics/staff/profile/nickparker.html
+"aleshin-guendel":
+  - firstname: ["Serge"]
+    url: https://aleshing.github.io
 
 "alfeld":
   - firstname: ["Scott", "S."]
@@ -30,21 +10,29 @@
   - firstname: ["Lujo"]
     url: https://users.ece.cmu.edu/~lbauer/
 
-"lucas":
-  - firstname: ["Keane"]
-    url: https://keanelucas.com/
+"bulychev":
+  - firstname: ["Maria"]
+    url: https://cis.unimelb.edu.au/people/graduate-researchers/artificial-intelligence/maria-bulychev
 
-"ohrimenko":
-  - firstname: ["Olga", "Olya"]
-    url: https://oohrimenko.github.io/
+"cullen":
+  - firstname: ["Andrew", "Andrew C.", "A. C."]
+    url: https://www.andrewcraigcullen.com
+
+"erfani":
+  - firstname: ["Sarah", "Sarah M.", "S. M."]
+    url: https://people.eng.unimelb.edu.au/smonazam/
 
 "huang":
   - firstname: ["Zhuoqun", "Calvin"]
     url: https://scholar.google.com.au/citations?user=GnYN5UAAAAAJ
 
-"cullen":
-  - firstname: ["Andrew", "Andrew C.", "A. C."]
-    url: https://www.andrewcraigcullen.com
+"kaplan":
+  - firstname: ["Andee", "A."]
+    url: https://andeekaplan.com/
+
+"lamont":
+  - firstname: ["Sean"]
+    url: https://www.linkedin.com/in/sean-lamont/
 
 "liu":
   - firstname: ["Feng"]
@@ -52,18 +40,47 @@
   - firstname: ["Yinyihong", "Y. Liu"]
     url: https://yinyihongliu.com/
 
-"erfani":
-  - firstname: ["Sarah", "Sarah M.", "S. M."]
-    url: https://people.eng.unimelb.edu.au/smonazam/
+"lucas":
+  - firstname: ["Keane"]
+    url: https://keanelucas.com/
+
+"martin":
+  - firstname: ["A. M."]
+    url: https://findanexpert.unimelb.edu.au/profile/29090-andy-martin
+
+"montague":
+  - firstname: ["Paul"]
+    url: https://www.linkedin.com/in/paul-montague-7b131b4/
+
+"o'Dell":
+  - firstname: ["D. H. J."]
+    url: https://physwww.mcmaster.ca/people/faculty/O%27Dell/O%27Dell_DHJ_h.html
+
+"ohrimenko":
+  - firstname: ["Olga", "Olya"]
+    url: https://oohrimenko.github.io/
+
+"parker":
+  - firstname: ["N. G.", "N."]
+    url: https://www.ncl.ac.uk/maths-physics/staff/profile/nickparker.html
+
+"rubinstein":
+  - firstname: ["Benjamin", "Ben", "Benjamin I. P.", "B. I. P."]
+    url: https://www.bipr.net/
+
+"standen":
+  - firstname: ["Maxwell", "Max"]
+    url: https://www.linkedin.com/in/maxwell-standen-441003123/
+
+"steorts":
+  - firstname: ["Rebecca", "Rebecca C.", "R. C."]
+    url: https://resteorts.github.io
+
+"xie":
+  - firstname: ["Jiani"]
+    url: https://www.linkedin.com/in/jiani-xie/
 
 "zhao":
   - firstname: ["Ying"]
     url: https://scholar.google.com/citations?user=6e-e6Q4AAAAJ
 
-"bulychev":
-  - firstname: ["Maria"]
-    url: https://cis.unimelb.edu.au/people/graduate-researchers/artificial-intelligence/maria-bulychev
-
-"aleshin-guendel":
-  - firstname: ["Serge"]
-    url: https://aleshing.github.io
