@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-22'
+  last_updated: '2026-07-31'
 papers:
   F7cVGr0AAAAJ:0EnyYjriUFMC:
     citations: 1
@@ -7,8 +7,8 @@ papers:
     year: '2026'
   F7cVGr0AAAAJ:2osOgNQ5qMEC:
     citations: 0
-    title: Statistical Approaches for Entity Resolution under Uncertainty.
-    year: '2020'
+    title: Statistical Approaches for Entity Resolution under Uncertainty
+    year: '2021'
   F7cVGr0AAAAJ:4DMP91E08xMC:
     citations: 0
     title: On the Bayes Inconsistency of Disagreement Discrepancy Surrogates
