@@ -1,28 +1,24 @@
 metadata:
-  last_updated: '2026-07-31'
+  last_updated: '2026-08-12'
 papers:
   F7cVGr0AAAAJ:0EnyYjriUFMC:
-    citations: 1
+    citations: 2
     title: Adaptive Data Analysis for Growing Data
     year: '2026'
   F7cVGr0AAAAJ:2osOgNQ5qMEC:
     citations: 0
-    title: Statistical Approaches for Entity Resolution under Uncertainty
-    year: '2021'
+    title: Statistical Approaches for Entity Resolution under Uncertainty.
+    year: '2020'
   F7cVGr0AAAAJ:4DMP91E08xMC:
     citations: 0
     title: On the Bayes Inconsistency of Disagreement Discrepancy Surrogates
-    year: '2025'
+    year: '2026'
   F7cVGr0AAAAJ:7PzlFSSx8tAC:
     citations: 0
     title: What Was That Again? Certified Robustness for Automatic Speech Recognition
     year: '2026'
-  F7cVGr0AAAAJ:9ZlFYXVOiuMC:
-    citations: 0
-    title: "Package \u2018comparator\u2019"
-    year: '2022'
   F7cVGr0AAAAJ:IjCSPb-OGe4C:
-    citations: 131
+    citations: 132
     title: 'Hard to forget: Poisoning attacks on certified machine unlearning'
     year: '2022'
   F7cVGr0AAAAJ:QIV2ME_5wuYC:
@@ -30,7 +26,7 @@ papers:
     title: 'Watermarks Attack Watermarks: Re-Watermarking as a Generic Removal Strategy'
     year: '2026'
   F7cVGr0AAAAJ:Se3iqnhoufwC:
-    citations: 44
+    citations: 42
     title: 'RS-Del: Edit distance robustness certificates for sequence classifiers via randomized deletion'
     year: '2023'
   F7cVGr0AAAAJ:UeHWp8X0CEIC:
@@ -46,7 +42,7 @@ papers:
     title: Where is the Watermark? Interpretable Watermark Detection at the Block Level
     year: '2026'
   F7cVGr0AAAAJ:Y0pCki6q_DkC:
-    citations: 7
+    citations: 8
     title: Bayesian graphical entity resolution using exchangeable random partition priors
     year: '2023'
   F7cVGr0AAAAJ:Zph67rFs4hoC:
@@ -55,7 +51,7 @@ papers:
     year: '2024'
   F7cVGr0AAAAJ:aqlVkmm33-oC:
     citations: 1
-    title: Data Privacy in Enterprise AI
+    title: Data privacy in enterprise AI
     year: '2025'
   F7cVGr0AAAAJ:d1gkVwhDpl0C:
     citations: 41
