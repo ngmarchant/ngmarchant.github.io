@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-21'
+  last_updated: '2026-09-07'
 papers:
   F7cVGr0AAAAJ:0EnyYjriUFMC:
     citations: 2
@@ -18,7 +18,7 @@ papers:
     title: What Was That Again? Certified Robustness for Automatic Speech Recognition
     year: '2026'
   F7cVGr0AAAAJ:IjCSPb-OGe4C:
-    citations: 132
+    citations: 133
     title: 'Hard to forget: Poisoning attacks on certified machine unlearning'
     year: '2022'
   F7cVGr0AAAAJ:QIV2ME_5wuYC:
@@ -54,7 +54,7 @@ papers:
     title: Data privacy in enterprise AI
     year: '2025'
   F7cVGr0AAAAJ:d1gkVwhDpl0C:
-    citations: 42
+    citations: 43
     title: 'd-blink: Distributed end-to-end Bayesian entity resolution'
     year: '2021'
   F7cVGr0AAAAJ:dhFuZR0502QC:
@@ -70,6 +70,6 @@ papers:
     title: Vortices and vortex lattices in quantum ferrofluids
     year: '2017'
   F7cVGr0AAAAJ:u5HHmVD_uO8C:
-    citations: 34
+    citations: 35
     title: 'In Search of an Entity Resolution OASIS: Optimal Asymptotic Sequential Importance Sampling'
     year: '2017'
