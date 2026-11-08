@@ -2,10 +2,11 @@
 layout: page
 permalink: /advising/
 title: Advising
-description: I co-supervise graduate researchers working on a range of problems in machine learning and AI. While my current appointment limits me to co-supervision roles, I'm always happy to discuss potential collaborations with prospective students and their advisors.
 nav: true
 nav_order: 4
 ---
+
+I co-supervise graduate researchers working on a range of problems in machine learning and AI. While my current appointment limits me to co-supervision roles, I'm always happy to discuss potential collaborations with prospective students and their advisors.
 
 ## Current Students
 
