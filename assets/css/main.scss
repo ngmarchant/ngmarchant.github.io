@@ -1,0 +1,95 @@
+---
+# Site override of al_folio_core's main stylesheet.
+---
+
+@charset "utf-8";
+
+@use "sass:math";
+@use "sass:string";
+@use "variables" with (
+  $max-content-width: {{site.max_width | default: "930px"}}
+);
+
+@use "themes";
+@use "layout";
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+:root {
+  --global-theme-color: hsl(208, 100%, 38%);
+  --global-hover-color: hsl(208, 100%, 28%);
+  --global-code-bg-color: #f8f8f8;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: hsl(208, 100%, 79%);
+  --global-hover-color: hsl(208, 100%, 69%);
+  --global-code-bg-color: #272727;
+}
+
+html,
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.lead,
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.card .md-form label,
+table td,
+.navbar,
+.navbar .breadcrumb,
+.navbar .dropdown-menu a,
+.navbar-brand.title {
+  font-weight: 400 !important;
+}
+
+.navbar.navbar-light form .md-form .form-control::placeholder,
+.navbar.navbar-dark form .md-form .form-control::placeholder {
+  font-weight: 400 !important;
+}
+
+.post-title .font-weight-bold,
+.navbar-brand .font-weight-bold,
+.cv .font-weight-bold,
+.cv .font-weight-bold b {
+  font-weight: 500 !important;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link,
+.publications ol.bibliography li .title {
+  font-weight: 500;
+}
+
+.publications ol.bibliography li .abbr abbr a {
+  color: inherit;
+}
+
+pre,
+code {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+}
+
+html[data-theme="dark"] .highlight pre {
+  background-color: var(--global-code-bg-color) !important;
+}
