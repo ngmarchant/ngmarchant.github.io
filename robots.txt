@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.ngmarchant.net//sitemap.xml
+Sitemap: https://www.ngmarchant.net/sitemap.xml
